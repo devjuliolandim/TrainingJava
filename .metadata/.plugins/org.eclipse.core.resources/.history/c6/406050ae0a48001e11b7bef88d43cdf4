@@ -1,0 +1,43 @@
+package treino;
+
+import java.util.Scanner;
+
+
+public class SomaDeNumeros {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Qual o primeiro número que você deseja somar?");
+		int primeiro;
+		primeiro = scanner.nextInt();
+		
+		
+		
+		int limite;
+		do {
+		System.out.println("Qual o limite dos números?");
+		
+		limite = scanner.nextInt();
+		}while(limite<=primeiro);
+		
+		
+		int soma = 0;
+		
+		
+		for (int i = primeiro; i <= limite; i++) {
+			soma += i;
+			
+			
+			
+			
+		}
+		
+		System.out.println("A soma é " + soma);
+	
+	
+	
+	}
+
+}

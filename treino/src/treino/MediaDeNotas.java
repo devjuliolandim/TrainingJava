@@ -1,0 +1,31 @@
+package treino;
+
+import java.util.Scanner;
+
+public class MediaDeNotas {
+
+	public static void main(String[] args) {
+
+	Scanner dados = new Scanner(System.in);
+	double SomaDeNota = 0;
+	
+	System.out.println("Digite suas notas:");
+
+	for(int i = 0; i<3; i++) {
+		
+		System.out.print("Nota " + (i+1)+ ":");
+		double nota = dados.nextDouble();
+		SomaDeNota += nota;
+		
+	}
+	
+		double media = SomaDeNota / 3;
+		
+		System.out.println("A média é: " + media);
+	
+	
+		
+		dados.close();
+	}
+
+}

@@ -1,0 +1,32 @@
+package treino;
+
+import java.util.Scanner;
+
+public class SeiNao {
+
+	public static void main(String[] args) {
+
+	Scanner texto = new Scanner(System.in);
+	String str;
+	
+	System.out.println("Tu gosta de buceta, carai? (S/N)?");
+	str = texto.nextLine();
+	texto.close();
+		
+	if(str.equalsIgnoreCase("S") || str.equalsIgnoreCase("s")) {
+		
+		System.out.println("Boa safadin kkkkk");
+		
+		
+	}else {
+		
+		System.out.println("Viadin kkkkkkkkk");
+		
+	}
+	
+	
+	
+	
+	}
+
+}

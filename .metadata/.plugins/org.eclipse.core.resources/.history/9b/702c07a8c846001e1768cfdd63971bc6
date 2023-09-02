@@ -1,0 +1,15 @@
+package treino;
+
+public class SeiNao {
+
+	public static void main(String[] args) {
+
+		int vet[] = new int [10];
+		
+		for (int i = 0; i < vet.length; i++) {
+			System.out.println(i);
+		}
+		
+	}
+
+}

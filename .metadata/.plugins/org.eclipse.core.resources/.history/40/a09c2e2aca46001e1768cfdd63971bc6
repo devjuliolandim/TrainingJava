@@ -1,0 +1,20 @@
+package treino;
+
+import java.util.Scanner;
+
+public class SeiNao {
+
+	public static void main(String[] args) {
+
+		
+		
+		System.out.println("Digite se você gosta de java: (S/N)");
+		
+		Scanner dado = new Scanner(System.in);
+		
+		
+	
+		
+	}
+
+}

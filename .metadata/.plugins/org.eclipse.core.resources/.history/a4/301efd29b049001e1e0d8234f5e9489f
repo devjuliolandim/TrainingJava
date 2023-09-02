@@ -1,0 +1,33 @@
+package treino;
+
+public class treino {
+
+	public static void main(String[] args) {
+	
+		int N = 1;
+		int soma = 0;
+		int num = 1;
+		
+		
+		while(N<=10) {
+			
+			System.out.println("Thales legal");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

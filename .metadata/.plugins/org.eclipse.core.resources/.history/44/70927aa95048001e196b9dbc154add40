@@ -1,0 +1,44 @@
+package treino;
+
+import java.util.Scanner;
+
+public class TestesFuncao {
+
+	
+	public static void fatorial(int a) {
+		if(a==1 || a==0) {
+			return 1;
+			
+			
+		}else {
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite um número positivo para ser calculado o fatorial:");
+		int num;
+		num = scanner.nextInt();
+		
+		fatorial(num);
+		
+		
+		scanner.close();
+	}
+
+}
