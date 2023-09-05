@@ -1,0 +1,45 @@
+package treino;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+
+	
+	public static int fibonacci(int num) {
+		if(num== 0) {
+			return 0;
+			
+		}else if(num == 1) {
+			return 1;
+		}else {
+			
+			
+			return fibonacci(num - 1) + fibonacci(num - 2);
+			
+		}
+		
+	
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Qual a posição do número que você gostaria de saber da sequência de Fibonacci?");
+		int posicao;
+		
+		posicao = scanner.nextInt();
+
+		fibonacci(posicao);
+		
+		System.out.println(posicao);
+		
+		scanner.close();
+	}
+
+}
